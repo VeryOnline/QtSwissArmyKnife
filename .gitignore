@@ -1,0 +1,5 @@
+*.user
+*.user.*
+build*
+/SAKCustomConfigure.pri
+out

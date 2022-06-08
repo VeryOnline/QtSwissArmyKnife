@@ -1,0 +1,45 @@
+name: build-ios
+on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - 'doc/**'
+      - '*.md'
+  pull_request:
+    branches:
+      - master
+    paths-ignore:
+      - 'doc/**'
+      - '*.md'
+
+jobs:
+  build:
+    name: Build
+    runs-on: macos-10.15
+    strategy:
+      matrix:
+        qt_ver: [5.12.10, 5.15.2]
+        qt_target: [ios]
+    steps:
+      #- name: Cache Qt
+      #  id: MacosCacheQt
+      #  uses: actions/cache@v1
+      #  with:
+      #    path: ../Qt/${{matrix.qt_ver}}/${{matrix.qt_arch}}
+      #    key: ${{ runner.os }}-Qt/${{matrix.qt_ver}}/${{matrix.qt_arch}}   
+      - name: Install Qt
+        # if: steps.cacheqt.outputs.cache-hit != 'true'
+        uses: jurplel/install-qt-action@v2
+        with:
+          # Version of Qt to install
+          version: ${{ matrix.qt_ver }}
+          # Target platform for build
+          target: ${{ matrix.qt_target }}
+      - uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+      - name: build ios
+        run: |
+          qmake -r -spec macx-ios-clang CONFIG+=release CONFIG+=iphoneos
+          make
