@@ -1,0 +1,101 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/files/History.txt</file>
+        <file>resources/images/Gitee.png</file>
+        <file>resources/images/GitHub.png</file>
+        <file>resources/images/SAKLogo.png</file>
+        <file>translations/qt/qt_en.qm</file>
+        <file>translations/qt/qt_zh_CN.qm</file>
+        <file>translations/qt/qt_zh_TW.qm</file>
+        <file>translations/qt/qtbase_en.qm</file>
+        <file>translations/qt/qtbase_zh_CN.qm</file>
+        <file>translations/qt/qtbase_zh_TW.qm</file>
+        <file>translations/sak/America.png</file>
+        <file>translations/sak/China.png</file>
+        <file>translations/sak/SAK_en.ts</file>
+        <file>translations/sak/SAK_zh_CN.ts</file>
+        <file>translations/sak/SAK_zh_TW.ts</file>
+        <file>translations/sak/Translations.json</file>
+        <file>translations/sak/SAK_en.qm</file>
+        <file>translations/sak/SAK_zh_CN.qm</file>
+        <file>translations/sak/SAK_zh_TW.qm</file>
+        <file>resources/images/Android.png</file>
+        <file>resources/images/Gz.png</file>
+        <file>resources/images/Linux.png</file>
+        <file>resources/images/Mac.png</file>
+        <file>resources/images/Pi.png</file>
+        <file>resources/images/Windows.png</file>
+        <file>resources/images/Zip.png</file>
+        <file>resources/images/Qt.png</file>
+        <file>resources/images/QSAKQQ.jpg</file>
+        <file>resources/images/QtQQ.jpg</file>
+        <file>qml/MainWindow.qml</file>
+        <file>resources/icons/矩形 2 拷贝 3.png</file>
+        <file>resources/icons/矩形 2 拷贝 3@2x.png</file>
+        <file>resources/icons/矩形 2.png</file>
+        <file>resources/icons/矩形 2@2x.png</file>
+        <file>resources/icons/矩形 3.png</file>
+        <file>resources/icons/矩形 3@2x.png</file>
+        <file>resources/icons/控制.png</file>
+        <file>resources/icons/控制@2x.png</file>
+        <file>resources/icons/其他.png</file>
+        <file>resources/icons/其他@2x.png</file>
+        <file>resources/icons/设置 (1).png</file>
+        <file>resources/icons/设置 (1)@2x.png</file>
+        <file>resources/icons/矢量图军用刀制品.png</file>
+        <file>resources/icons/矢量图军用刀制品@2x.png</file>
+        <file>resources/icons/输出.png</file>
+        <file>resources/icons/输出@2x.png</file>
+        <file>resources/icons/输入 (1).png</file>
+        <file>resources/icons/输入 (1)@2x.png</file>
+        <file>resources/icons/输入.png</file>
+        <file>resources/icons/输入@2x.png</file>
+        <file>resources/icons/统计.png</file>
+        <file>resources/icons/统计@2x.png</file>
+        <file>resources/icons/下拉.png</file>
+        <file>resources/icons/下拉@2x.png</file>
+        <file>resources/icons/形状 1.png</file>
+        <file>resources/icons/形状 1@2x.png</file>
+        <file>qml/MainWindowToolBar.qml</file>
+        <file>qml/page/DebugPage.qml</file>
+        <file>qml/MainWindowTabBar.qml</file>
+        <file>qml/MainWindowTabButton.qml</file>
+        <file>qml/component/SAKTitle.qml</file>
+        <file>qml/base/SAKLabel.qml</file>
+        <file>qml/page/DebugPageBlockOutputtArea.qml</file>
+        <file>qml/page/DebugPageBlock.qml</file>
+        <file>qml/page/DebugPageBlockDeviceSettings.qml</file>
+        <file>qml/page/DebugPageBlockInputArea.qml</file>
+        <file>qml/page/DebugPageBlockInputSettings.qml</file>
+        <file>qml/page/DebugPageBlockOtherSettings.qml</file>
+        <file>qml/page/DebugPageBlockOutputSettings.qml</file>
+        <file>qml/page/DebugPageBlockStatisticsArea.qml</file>
+        <file>qml/base/SAKButton.qml</file>
+        <file>qml/base/SAKCheckBox.qml</file>
+        <file>qml/base/SAKComboBox.qml</file>
+        <file>resources/icons/上拉.png</file>
+        <file>qml/base/SAKText.qml</file>
+        <file>qml/base/SAKTextArea.qml</file>
+        <file>qml/base/SAKLineEdit.qml</file>
+        <file>qml/console/ConsolePage.qml</file>
+        <file>qml/settings/SettingsPage.qml</file>
+        <file>qml/tools/ToolsPage.qml</file>
+        <file>qml/SAKSerialportControl.qml</file>
+        <file>qml/SAKTcpClientControl.qml</file>
+        <file>qml/SAKTcpServerControl.qml</file>
+        <file>qml/SAKUdpControl.qml</file>
+        <file>qml/help/HelpPage.qml</file>
+        <file>qml/help/HelpPage3rd.qml</file>
+        <file>qml/help/HelpPageAboutQt.qml</file>
+        <file>qml/help/HelpPageAboutSAK.qml</file>
+        <file>qml/help/HelpPageBuy.qml</file>
+        <file>qml/help/HelpPageDonation.qml</file>
+        <file>qml/help/HelpPageHistory.qml</file>
+        <file>qml/help/HelpPagePanel.qml</file>
+        <file>qml/base/SAKGroupBox.qml</file>
+        <file>qml/help/HelpPageFeedback.qml</file>
+        <file>qml/base/SAKPopup.qml</file>
+        <file>qml/page/DebugPagePopupPresetData.qml</file>
+        <file>qml/update/UpdatePage.qml</file>
+    </qresource>
+</RCC>
